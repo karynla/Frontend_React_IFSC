@@ -1,4 +1,4 @@
-import { saudacao, funcionarios } from "./11Export.js";
+import { funcionarios, saudacao } from "./11Export.js";
 
 console.log(saudacao("Eduardo"));
 
