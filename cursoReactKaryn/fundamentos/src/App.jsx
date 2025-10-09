@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import ImagensReact from "./components/ImagensReact";
 import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 
       <MeuPrimeiroComponente />
       <Button />
+      <ImagensReact />
     </>
   );
 }
