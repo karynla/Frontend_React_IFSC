@@ -1,7 +1,7 @@
 import "./App.css";
-import MeuPrimeiroComponente from "./componentes/MeuPrimeiroComponente";
 import Button from "./components/Button";
 import ImagensReact from "./components/ImagensReact";
+import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
 function App() {
   return (
