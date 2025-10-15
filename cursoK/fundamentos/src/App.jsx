@@ -4,11 +4,12 @@ import CalculadoraMedia from "./components/CalculadoraMedia";
 import CalculadoraVolume from "./components/CalculadoraVolume";
 import ImagensReact from "./components/ImagensReact";
 import MeuComponenteCSS from "./components/MeuComponenteCSS";
+import MeuComponenteModule from "./components/MeuComponenteModule";
 import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
 function App() {
   return (
-    <>
+    <div>
       <h1>Fundamentos React</h1>
       <p>Aprendendo React na pratica</p>
 
@@ -30,9 +31,8 @@ function App() {
         sequencia/cascata (o aquivo css nao esta importado no App.jsx e sim no
         MeuComponenteCSS.jsx)
       </h5>
-
       <MeuComponenteModule />
-    </>
+    </div>
   );
 }
 
