@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button";
 import CalculadoraMedia from "./components/CalculadoraMedia";
+import CalculadoraVolume from "./components/CalculadoraVolume";
 import ImagensReact from "./components/ImagensReact";
 import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
@@ -20,6 +21,7 @@ function App() {
       <Button />
       <ImagensReact />
       <CalculadoraMedia />
+      <CalculadoraVolume />
     </>
   );
 }
