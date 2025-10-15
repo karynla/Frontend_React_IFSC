@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button";
+import CalculadoraMedia from "./components/CalculadoraMedia";
 import ImagensReact from "./components/ImagensReact";
 import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
@@ -18,6 +19,7 @@ function App() {
       <MeuPrimeiroComponente />
       <Button />
       <ImagensReact />
+      <CalculadoraMedia />
     </>
   );
 }
