@@ -3,6 +3,7 @@ import Button from "./components/Button";
 import CalculadoraMedia from "./components/CalculadoraMedia";
 import CalculadoraVolume from "./components/CalculadoraVolume";
 import ImagensReact from "./components/ImagensReact";
+import MeuComponenteCSS from "./components/MeuComponenteCSS";
 import MeuPrimeiroComponente from "./components/MeuPrimeiroComponente";
 
 function App() {
@@ -22,6 +23,15 @@ function App() {
       <ImagensReact />
       <CalculadoraMedia />
       <CalculadoraVolume />
+      <MeuComponenteCSS />
+      <h5 className="title">
+        recebe o estilo do ultimo componente css, que esta sem o .module, o
+        estilo vazou para os componente que vao ser rendedizados na
+        sequencia/cascata (o aquivo css nao esta importado no App.jsx e sim no
+        MeuComponenteCSS.jsx)
+      </h5>
+
+      <MeuComponenteModule.css />
     </>
   );
 }
