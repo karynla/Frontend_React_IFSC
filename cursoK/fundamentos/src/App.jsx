@@ -31,7 +31,7 @@ function App() {
         MeuComponenteCSS.jsx)
       </h5>
 
-      <MeuComponenteModule.css />
+      <MeuComponenteModule />
     </>
   );
 }
